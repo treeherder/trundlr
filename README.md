@@ -11,7 +11,7 @@ an app to help with the collection and distribution of otherwise wasted food.
     * confirm drivers on day-of
     * organize back-up driver volunteers if needed
     * forward a digest version to organizers in a timeely fashion
-    * built in throttle mechanizsms controlled by organizer, with backup and default organizer settings
+    * built in throttle mechanisms controlled by organizer, with backup and default organizer settings
 
 #### Rationale:
 --------
