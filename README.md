@@ -33,3 +33,19 @@ Because our current model (based on food-not-bombs) for a distribution newtork r
 trundlr's backend services work by reverse proxy over [nginx](http://nginx.org/en/download.html):
 ##### nginx config:
 from `/etc/nginx/sites-available/default`
+
+    server {
+    listen 80;
+
+        server_name trundlr.roastrev.com;
+
+            location / {
+                   proxy_pass http://localhost:9001;
+                   proxy_http_version 1.1;
+                   proxy_set_header Upgrade $http_upgrade;
+                   proxy_set_header Connection 'upgrade';
+                   proxy_set_header Host $host;
+                   proxy_cache_bypass $http_upgrade;
+    }
+    }
+
