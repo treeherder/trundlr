@@ -1,7 +1,7 @@
 ## trundlr
 --------
 
-an app to help with the collection and distribution of otherwise wasted food.
+A free, open-source application to help with the collection and distribution of otherwise wasted food.
 
 #### Objective:
 --------
