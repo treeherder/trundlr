@@ -27,3 +27,9 @@ Because our current model (based on food-not-bombs) for a distribution newtork r
 6. Volunteers, organizers, and donors meet at donation location and distribute food.
 7. Vehicles self report a tally, and in some cases return a recipt.
 
+
+### how this program works
+----
+trundlr's backend services work by reverse proxy over [nginx](http://nginx.org/en/download.html):
+##### nginx config:
+from `/etc/nginx/sites-available/default`
