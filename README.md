@@ -3,7 +3,14 @@
 
 an app to help with the collection and distribution of otherwise wasted food.
 
-
+#### objective:
+  * To provide trundlr asa utility for drivers in extension to the extant android-oriented service.
+  * Provide a standalone call-in service to relieve the organizer's burden.
+    * intelligently track volunteer drivers sign ups
+    * confirm drivers on day-of
+    * organize back-up driver volunteers if needed
+    * forward a digest version to organizers in a timeely fashion
+    * built in throttle mechanizsms controlled by organizer, with backup and default organizer settings
 
 #### rationale
 because our current model (based on food-not-bombs) for a distribution newtork requires an untenable amount of human industry to keep running on a week-to-week and day-to-day manner
