@@ -1,10 +1,10 @@
 ## trundlr
------
+--------
 
 an app to help with the collection and distribution of otherwise wasted food.
 
 #### Objective:
-------
+--------
   * To provide trundlr as a utility for drivers in extension to the extant android-oriented service.
   * Provide a standalone call-in service to relieve the organizer's burden.
     * intelligently track volunteer drivers sign ups
@@ -14,7 +14,7 @@ an app to help with the collection and distribution of otherwise wasted food.
     * built in throttle mechanizsms controlled by organizer, with backup and default organizer settings
 
 #### Rationale:
-------
+--------
 Because our current model (based on food-not-bombs) for a distribution newtork requires an untenable amount of human industry to keep running on a week-to-week and day-to-day basis, trundlr should provide some inteligent service that the organizer can rely upon to self-organize volunteers and their various problems with temporality and spacial precision.
 
 ##### Current Model
