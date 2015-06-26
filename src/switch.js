@@ -23,3 +23,7 @@ app.post('/doorbell', function(req, res) {
     res.send(200);
     
   });
+
+
+require('http').createServer(app).listen(9001, function(){
+    console.log("ready");});
